@@ -1,0 +1,14 @@
+{
+  "name": "shema",
+  "version": "1.0.0",
+  "description": "Shema MERN Stack Ecommerce application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meet-navapara/ecommerce"
+  },
+  "author": "Meet Navapara"
+}
