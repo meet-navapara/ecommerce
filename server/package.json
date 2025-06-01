@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "build": "echo \"No build needed for backend\" && exit 0"
   },
   "author": "Bereket Lemma",
   "license": "ISC",
