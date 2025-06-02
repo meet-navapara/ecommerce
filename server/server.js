@@ -19,8 +19,6 @@ app.use('/api/payment', cors(), require("./routes/payment"))
 
 
 
-// Serve frontend in production
-const path = require('path'); // Make sure this is at the top with other requires
 
 // Serve frontend in production
 if (process.env.NODE_ENV === 'production') {
