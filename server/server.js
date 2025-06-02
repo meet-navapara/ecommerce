@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 
   // Any requests that are not API routes should be redirected to the React app
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../client', 'build', 'index.html'));
+    res.sendFile(path.resolve(__dirname, '../client', 'public', 'index.html'));
   });
 }
 
